@@ -1,0 +1,19 @@
+筑测云端到端验证结果
+时间：2026-11-06T09:08:12.351Z
+地址：http://127.0.0.1:8000
+浏览器：Microsoft Edge (headless)
+截图：12 张
+结论：全部断言通过，无控制台错误、无 API 4xx/5xx。
+
+- 01_login.png (625 KB)
+- 02_dashboard.png (505 KB)
+- 03_projects.png (260 KB)
+- 04_samples_dialog.png (177 KB)
+- 05_samples.png (305 KB)
+- 06_record_dialog.png (194 KB)
+- 07_records.png (332 KB)
+- 08_ai_overview.png (432 KB)
+- 09_ai_tasks.png (311 KB)
+- 10_ai_defects.png (360 KB)
+- 11_ai_grading.png (506 KB)
+- 12_users.png (233 KB)

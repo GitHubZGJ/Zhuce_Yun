@@ -1,0 +1,73 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0
+rootdir: D:\idealCProject\HomeWork\backend
+plugins: anyio-4.16.0, cov-7.1.0
+collected 56 items
+
+tests\test_auth.py .........                                             [ 16%]
+tests\test_dashboard_ai.py .............                                 [ 39%]
+tests\test_http_errors.py ...                                            [ 44%]
+tests\test_permissions.py .......                                        [ 57%]
+tests\test_projects.py ...........                                       [ 76%]
+tests\test_samples_records.py .............                              [100%]
+
+============================== warnings summary ===============================
+..\.venv\Lib\site-packages\fastapi\testclient.py:1
+  D:\idealCProject\HomeWork\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.12.3-final-0 _______________
+
+Name                                   Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------
+app\__init__.py                            0      0   100%
+app\core\__init__.py                       0      0   100%
+app\core\config.py                        15      0   100%
+app\core\deps.py                          28      4    86%   22-23, 26, 28
+app\core\enums.py                         59      0   100%
+app\core\exceptions.py                    41      6    85%   55-58, 66-68
+app\core\response.py                       5      0   100%
+app\core\security.py                      33      4    88%   27, 32-33, 52
+app\db\__init__.py                         0      0   100%
+app\db\base.py                             8      0   100%
+app\db\session.py                         21      7    67%   16-18, 28-32
+app\main.py                               36      7    81%   50, 56-59, 63-65
+app\modules\__init__.py                   24      3    88%   14, 28, 33
+app\modules\ai_ops\__init__.py             0      0   100%
+app\modules\ai_ops\grading.py              5      0   100%
+app\modules\ai_ops\models.py              35      0   100%
+app\modules\ai_ops\router.py              45      7    84%   64-65, 80-90, 109, 118-119
+app\modules\ai_ops\schemas.py             55      0   100%
+app\modules\ai_ops\service.py            151     47    69%   45, 102-103, 105, 109, 148, 152, 154, 171-175, 188-206, 229-241, 245-249, 254
+app\modules\auth\__init__.py               0      0   100%
+app\modules\auth\router.py                20      0   100%
+app\modules\auth\schemas.py               15      0   100%
+app\modules\auth\service.py               18      0   100%
+app\modules\dashboard\__init__.py          0      0   100%
+app\modules\dashboard\router.py           11      0   100%
+app\modules\dashboard\service.py          53      2    96%   26-27
+app\modules\projects\__init__.py           0      0   100%
+app\modules\projects\models.py            18      0   100%
+app\modules\projects\router.py            32      1    97%   43
+app\modules\projects\schemas.py           36      0   100%
+app\modules\projects\service.py           68      4    94%   12, 47-48, 97
+app\modules\samples\__init__.py            0      0   100%
+app\modules\samples\models.py             17      0   100%
+app\modules\samples\router.py             28      1    96%   64
+app\modules\samples\schemas.py            27      1    96%   35
+app\modules\samples\service.py            77     19    75%   13, 50-51, 63, 108-122
+app\modules\test_records\__init__.py       0      0   100%
+app\modules\test_records\models.py        21      0   100%
+app\modules\test_records\router.py        29      3    90%   51, 79-80
+app\modules\test_records\schemas.py       33      1    97%   11
+app\modules\test_records\service.py       78     15    81%   24, 65, 82-83, 91, 93, 97, 99, 139, 142, 153-157
+app\modules\users\__init__.py              0      0   100%
+app\modules\users\models.py               14      0   100%
+app\modules\users\router.py               24      1    96%   56
+app\modules\users\schemas.py              28      0   100%
+app\modules\users\service.py              43     14    67%   14-15, 45, 52-63
+--------------------------------------------------------------------
+TOTAL                                   1251    147    88%
+======================= 56 passed, 1 warning in 10.89s ========================

@@ -1,0 +1,29 @@
+# Python 虚拟环境与缓存（依赖见 backend/requirements.txt）
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node 依赖与构建中间产物（前端构建产物保留在 backend/app/static）
+node_modules/
+frontend/dist/
+
+# 运行时日志与 PID
+.run/
+
+# 数据库文件由 seed.py 生成，不入库
+backend/data/*.db
+backend/data/*.db-journal
+backend/data/*.db-wal
+backend/data/*.db-shm
+
+# 临时文件
+.tmp_report/
+*.tmp
+*.log
+
+# 操作系统
+Thumbs.db
+.DS_Store

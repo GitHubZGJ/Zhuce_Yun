@@ -1,0 +1,397 @@
+{
+  "passed": true,
+  "total": 78,
+  "failed": [],
+  "checks": [
+    {
+      "name": "文件存在：README.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "文件存在：backend/app/main.py",
+      "passed": true,
+      "detail": "backend/app/main.py"
+    },
+    {
+      "name": "文件存在：backend/data/app.db",
+      "passed": true,
+      "detail": "backend/data/app.db"
+    },
+    {
+      "name": "文件存在：backend/seed.py",
+      "passed": true,
+      "detail": "backend/seed.py"
+    },
+    {
+      "name": "文件存在：backend/requirements.txt",
+      "passed": true,
+      "detail": "backend/requirements.txt"
+    },
+    {
+      "name": "文件存在：backend/tests/conftest.py",
+      "passed": true,
+      "detail": "backend/tests/conftest.py"
+    },
+    {
+      "name": "文件存在：frontend/package.json",
+      "passed": true,
+      "detail": "frontend/package.json"
+    },
+    {
+      "name": "文件存在：frontend/src/main.js",
+      "passed": true,
+      "detail": "frontend/src/main.js"
+    },
+    {
+      "name": "文件存在：frontend/e2e/ui-check.mjs",
+      "passed": true,
+      "detail": "frontend/e2e/ui-check.mjs"
+    },
+    {
+      "name": "文件存在：scripts/start.bat",
+      "passed": true,
+      "detail": "scripts/start.bat"
+    },
+    {
+      "name": "文件存在：scripts/stop.bat",
+      "passed": true,
+      "detail": "scripts/stop.bat"
+    },
+    {
+      "name": "文件存在：scripts/start_server.ps1",
+      "passed": true,
+      "detail": "scripts/start_server.ps1"
+    },
+    {
+      "name": "文件存在：scripts/stop_server.ps1",
+      "passed": true,
+      "detail": "scripts/stop_server.ps1"
+    },
+    {
+      "name": "文件存在：scripts/generate_charts.py",
+      "passed": true,
+      "detail": "scripts/generate_charts.py"
+    },
+    {
+      "name": "文件存在：scripts/generate_diagrams.py",
+      "passed": true,
+      "detail": "scripts/generate_diagrams.py"
+    },
+    {
+      "name": "文件存在：scripts/build_report.py",
+      "passed": true,
+      "detail": "scripts/build_report.py"
+    },
+    {
+      "name": "文件存在：scripts/render_report.py",
+      "passed": true,
+      "detail": "scripts/render_report.py"
+    },
+    {
+      "name": "文件存在：deliverable/软件工程大作业报告.docx",
+      "passed": true,
+      "detail": "deliverable/软件工程大作业报告.docx"
+    },
+    {
+      "name": "文件存在：deliverable/软件工程大作业报告.pdf",
+      "passed": true,
+      "detail": "deliverable/软件工程大作业报告.pdf"
+    },
+    {
+      "name": "文件存在：evidence/api_snapshot.json",
+      "passed": true,
+      "detail": "evidence/api_snapshot.json"
+    },
+    {
+      "name": "文件存在：evidence/pytest_full.txt",
+      "passed": true,
+      "detail": "evidence/pytest_full.txt"
+    },
+    {
+      "name": "文件存在：evidence/ui/e2e_result.json",
+      "passed": true,
+      "detail": "evidence/ui/e2e_result.json"
+    },
+    {
+      "name": "文件存在：evidence/ui/e2e_summary.txt",
+      "passed": true,
+      "detail": "evidence/ui/e2e_summary.txt"
+    },
+    {
+      "name": "文件存在：evidence/report_render.json",
+      "passed": true,
+      "detail": "evidence/report_render.json"
+    },
+    {
+      "name": "图表 PNG：01_feasibility_radar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 SVG：01_feasibility_radar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 PNG：02_use_case",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 SVG：02_use_case",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 PNG：03_architecture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 SVG：03_architecture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 PNG：04_class_diagram",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 SVG：04_class_diagram",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 PNG：05_program_flowchart",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 SVG：05_program_flowchart",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 PNG：06_defect_pareto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 SVG：06_defect_pareto",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 PNG：07_er_diagram",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 SVG：07_er_diagram",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 PNG：08_ai_reliability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "图表 SVG：08_ai_reliability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：00_摘要与项目概述.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：01_可行性分析报告.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：02_需求规格说明书.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：03_总体设计说明书.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：04_详细设计说明书.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：05_实现与测试说明.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：06_维护与Agent失效复盘.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：07_AI分级机制表.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：08_评级监管设计说明.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：09_演示与答辩脚本.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：10_交付物清单.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "文档：99_项目实施方案.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "数据库行数 users",
+      "passed": true,
+      "detail": "4 / 期望 4"
+    },
+    {
+      "name": "数据库行数 projects",
+      "passed": true,
+      "detail": "6 / 期望 6"
+    },
+    {
+      "name": "数据库行数 samples",
+      "passed": true,
+      "detail": "24 / 期望 24"
+    },
+    {
+      "name": "数据库行数 test_records",
+      "passed": true,
+      "detail": "60 / 期望 60"
+    },
+    {
+      "name": "数据库行数 ai_tasks",
+      "passed": true,
+      "detail": "24 / 期望 24"
+    },
+    {
+      "name": "数据库行数 defects",
+      "passed": true,
+      "detail": "25 / 期望 25"
+    },
+    {
+      "name": "缺陷累计发生 68 次",
+      "passed": true,
+      "detail": "68"
+    },
+    {
+      "name": "待修复 12 次",
+      "passed": true,
+      "detail": "12"
+    },
+    {
+      "name": "可靠性 85.3",
+      "passed": true,
+      "detail": "85.3"
+    },
+    {
+      "name": "平均失效分 13.4",
+      "passed": true,
+      "detail": "13.4"
+    },
+    {
+      "name": "高失效任务 4 项",
+      "passed": true,
+      "detail": "4"
+    },
+    {
+      "name": "帕累托前四类 76.5%",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "检测记录 60 条",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "合格率 85.0%",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pytest 56 passed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "覆盖率 88%",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "E2E 状态通过",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "E2E 12 张截图",
+      "passed": true,
+      "detail": "12"
+    },
+    {
+      "name": "E2E 无控制台错误",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "E2E 无 API 错误",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Word 图片 13 张",
+      "passed": true,
+      "detail": "13"
+    },
+    {
+      "name": "Word 表格 ≥ 90",
+      "passed": true,
+      "detail": "100"
+    },
+    {
+      "name": "Word 双节（封面+正文）",
+      "passed": true,
+      "detail": "2"
+    },
+    {
+      "name": "PDF 体积 > 1 MB",
+      "passed": true,
+      "detail": "3630351 bytes"
+    },
+    {
+      "name": "Word/PDF 页数 ≥ 50",
+      "passed": true,
+      "detail": "96"
+    },
+    {
+      "name": "Markdown 相对链接完整",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

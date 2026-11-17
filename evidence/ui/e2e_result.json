@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "baseUrl": "http://127.0.0.1:8000",
+  "browser": "Microsoft Edge (headless)",
+  "verifiedAt": "2026-11-06T09:08:12.351Z",
+  "steps": [
+    {
+      "step": "01_login.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\01_login.png",
+      "size": 640470
+    },
+    {
+      "step": "02_dashboard.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\02_dashboard.png",
+      "size": 516848
+    },
+    {
+      "step": "03_projects.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\03_projects.png",
+      "size": 266427
+    },
+    {
+      "step": "04_samples_dialog.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\04_samples_dialog.png",
+      "size": 180910
+    },
+    {
+      "step": "05_samples.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\05_samples.png",
+      "size": 312448
+    },
+    {
+      "step": "06_record_dialog.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\06_record_dialog.png",
+      "size": 199163
+    },
+    {
+      "step": "07_records.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\07_records.png",
+      "size": 339627
+    },
+    {
+      "step": "08_ai_overview.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\08_ai_overview.png",
+      "size": 442077
+    },
+    {
+      "step": "09_ai_tasks.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\09_ai_tasks.png",
+      "size": 318304
+    },
+    {
+      "step": "10_ai_defects.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\10_ai_defects.png",
+      "size": 369139
+    },
+    {
+      "step": "11_ai_grading.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\11_ai_grading.png",
+      "size": 518540
+    },
+    {
+      "step": "12_users.png",
+      "file": "D:\\idealCProject\\HomeWork\\evidence\\ui\\12_users.png",
+      "size": 238685
+    }
+  ],
+  "consoleErrors": [],
+  "apiErrors": []
+}

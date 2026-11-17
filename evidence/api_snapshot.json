@@ -1,0 +1,843 @@
+{
+  "generated_at": "2026-11-06T17:02:57",
+  "dashboard": {
+    "summary": {
+      "project_total": 6,
+      "active_projects": 2,
+      "sample_total": 24,
+      "pending_samples": 3,
+      "test_total": 60,
+      "pass_total": 51,
+      "pass_rate": 85.0,
+      "open_defect_occurrences": 12,
+      "task_count": 24,
+      "avg_failure_score": 13.4,
+      "success_rate": 83.3,
+      "reliability": 85.3,
+      "high_failure_count": 4
+    },
+    "project_status": [
+      {
+        "status": "ACCEPTED",
+        "count": 2
+      },
+      {
+        "status": "ARCHIVED",
+        "count": 1
+      },
+      {
+        "status": "IN_PROGRESS",
+        "count": 2
+      },
+      {
+        "status": "PLANNING",
+        "count": 1
+      }
+    ],
+    "sample_types": [
+      {
+        "type": "CONCRETE",
+        "label": "混凝土试块",
+        "count": 11
+      },
+      {
+        "type": "STEEL",
+        "label": "钢筋",
+        "count": 5
+      },
+      {
+        "type": "SOIL",
+        "label": "土工样品",
+        "count": 4
+      },
+      {
+        "type": "MORTAR",
+        "label": "砂浆试块",
+        "count": 2
+      },
+      {
+        "type": "ASPHALT",
+        "label": "沥青混合料",
+        "count": 2
+      }
+    ],
+    "pass_rate_by_type": [
+      {
+        "type": "CONCRETE",
+        "label": "混凝土试块",
+        "total": 30,
+        "pass": 25,
+        "rate": 83.3
+      },
+      {
+        "type": "STEEL",
+        "label": "钢筋",
+        "total": 12,
+        "pass": 10,
+        "rate": 83.3
+      },
+      {
+        "type": "SOIL",
+        "label": "土工样品",
+        "total": 6,
+        "pass": 5,
+        "rate": 83.3
+      },
+      {
+        "type": "MORTAR",
+        "label": "砂浆试块",
+        "total": 6,
+        "pass": 6,
+        "rate": 100.0
+      },
+      {
+        "type": "ASPHALT",
+        "label": "沥青混合料",
+        "total": 6,
+        "pass": 5,
+        "rate": 83.3
+      }
+    ],
+    "monthly_trend": [
+      {
+        "month": "2026-06",
+        "total": 10,
+        "pass": 9,
+        "fail": 1
+      },
+      {
+        "month": "2026-07",
+        "total": 10,
+        "pass": 8,
+        "fail": 2
+      },
+      {
+        "month": "2026-08",
+        "total": 10,
+        "pass": 9,
+        "fail": 1
+      },
+      {
+        "month": "2026-09",
+        "total": 10,
+        "pass": 8,
+        "fail": 2
+      },
+      {
+        "month": "2026-10",
+        "total": 10,
+        "pass": 9,
+        "fail": 1
+      },
+      {
+        "month": "2026-11",
+        "total": 10,
+        "pass": 8,
+        "fail": 2
+      }
+    ],
+    "recent_records": [
+      {
+        "id": 60,
+        "sample_id": 24,
+        "sample_code": "YP-260804",
+        "sample_type": "ASPHALT",
+        "project_id": 6,
+        "project_code": "XM-2025-007",
+        "project_name": "老城区雨污分流改造",
+        "item": "空隙率",
+        "standard_value": 6.0,
+        "measured_value": 6.36,
+        "unit": "%",
+        "rule": "LTE",
+        "conclusion": "FAIL",
+        "tested_by": 3,
+        "tester_name": "陈工",
+        "tested_at": "2026-11-05T11:20:00",
+        "remark": "",
+        "created_at": "2026-11-06T17:02:55.864693"
+      },
+      {
+        "id": 55,
+        "sample_id": 23,
+        "sample_code": "YP-260803",
+        "sample_type": "MORTAR",
+        "project_id": 6,
+        "project_code": "XM-2025-007",
+        "project_name": "老城区雨污分流改造",
+        "item": "抗压强度（28d）",
+        "standard_value": 10.0,
+        "measured_value": 10.2,
+        "unit": "MPa",
+        "rule": "GTE",
+        "conclusion": "PASS",
+        "tested_by": 1,
+        "tester_name": "系统管理员",
+        "tested_at": "2026-11-05T09:20:00",
+        "remark": "依据 GB/T 50081 / GB 50007 等标准检测",
+        "created_at": "2026-11-06T17:02:55.864693"
+      },
+      {
+        "id": 54,
+        "sample_id": 22,
+        "sample_code": "YP-260802",
+        "sample_type": "CONCRETE",
+        "project_id": 6,
+        "project_code": "XM-2025-007",
+        "project_name": "老城区雨污分流改造",
+        "item": "抗压强度（28d）",
+        "standard_value": 25.0,
+        "measured_value": 26.75,
+        "unit": "MPa",
+        "rule": "GTE",
+        "conclusion": "PASS",
+        "tested_by": 3,
+        "tester_name": "陈工",
+        "tested_at": "2026-11-04T11:20:00",
+        "remark": "",
+        "created_at": "2026-11-06T17:02:55.864693"
+      },
+      {
+        "id": 59,
+        "sample_id": 24,
+        "sample_code": "YP-260804",
+        "sample_type": "ASPHALT",
+        "project_id": 6,
+        "project_code": "XM-2025-007",
+        "project_name": "老城区雨污分流改造",
+        "item": "流值",
+        "standard_value": 4.0,
+        "measured_value": 3.76,
+        "unit": "mm",
+        "rule": "LTE",
+        "conclusion": "PASS",
+        "tested_by": 2,
+        "tester_name": "李工",
+        "tested_at": "2026-11-04T10:20:00",
+        "remark": "",
+        "created_at": "2026-11-06T17:02:55.864693"
+      },
+      {
+        "id": 53,
+        "sample_id": 22,
+        "sample_code": "YP-260802",
+        "sample_type": "CONCRETE",
+        "project_id": 6,
+        "project_code": "XM-2025-007",
+        "project_name": "老城区雨污分流改造",
+        "item": "抗压强度（28d）",
+        "standard_value": 25.0,
+        "measured_value": 24.25,
+        "unit": "MPa",
+        "rule": "GTE",
+        "conclusion": "FAIL",
+        "tested_by": 2,
+        "tester_name": "李工",
+        "tested_at": "2026-11-03T10:20:00",
+        "remark": "",
+        "created_at": "2026-11-06T17:02:55.864693"
+      },
+      {
+        "id": 58,
+        "sample_id": 24,
+        "sample_code": "YP-260804",
+        "sample_type": "ASPHALT",
+        "project_id": 6,
+        "project_code": "XM-2025-007",
+        "project_name": "老城区雨污分流改造",
+        "item": "马歇尔稳定度",
+        "standard_value": 8.0,
+        "measured_value": 8.4,
+        "unit": "kN",
+        "rule": "GTE",
+        "conclusion": "PASS",
+        "tested_by": 1,
+        "tester_name": "系统管理员",
+        "tested_at": "2026-11-03T09:20:00",
+        "remark": "依据 GB/T 50081 / GB 50007 等标准检测",
+        "created_at": "2026-11-06T17:02:55.864693"
+      }
+    ],
+    "defect_pareto": [
+      {
+        "category": "需求理解偏差",
+        "occurrences": 19,
+        "share": 27.9,
+        "cumulative": 27.9
+      },
+      {
+        "category": "接口契约不一致",
+        "occurrences": 14,
+        "share": 20.6,
+        "cumulative": 48.5
+      },
+      {
+        "category": "前端联调问题",
+        "occurrences": 11,
+        "share": 16.2,
+        "cumulative": 64.7
+      },
+      {
+        "category": "数据模型遗漏",
+        "occurrences": 8,
+        "share": 11.8,
+        "cumulative": 76.5
+      },
+      {
+        "category": "边界条件缺失",
+        "occurrences": 7,
+        "share": 10.3,
+        "cumulative": 86.8
+      },
+      {
+        "category": "文案与样式",
+        "occurrences": 5,
+        "share": 7.4,
+        "cumulative": 94.1
+      },
+      {
+        "category": "部署配置错误",
+        "occurrences": 4,
+        "share": 5.9,
+        "cumulative": 100.0
+      }
+    ]
+  },
+  "ai_stats": {
+    "summary": {
+      "task_count": 24,
+      "avg_failure_score": 13.4,
+      "success_rate": 83.3,
+      "reliability": 85.3,
+      "high_failure_count": 4,
+      "human_minutes": 910,
+      "retry_count": 13,
+      "defect_records": 25,
+      "defect_occurrences": 68,
+      "open_occurrences": 12,
+      "ai_related_occurrences": 49,
+      "ai_related_rate": 72.1,
+      "open_rate": 17.6
+    },
+    "by_phase": [
+      {
+        "phase": "FEASIBILITY",
+        "phase_name": "可行性分析",
+        "task_count": 4,
+        "avg_failure_score": 6.0,
+        "success_rate": 100.0,
+        "reliability": 96.4,
+        "high_failure_count": 0
+      },
+      {
+        "phase": "REQUIREMENTS",
+        "phase_name": "需求分析",
+        "task_count": 4,
+        "avg_failure_score": 14.8,
+        "success_rate": 75.0,
+        "reliability": 81.2,
+        "high_failure_count": 1
+      },
+      {
+        "phase": "ARCHITECTURE",
+        "phase_name": "总体设计",
+        "task_count": 4,
+        "avg_failure_score": 5.5,
+        "success_rate": 100.0,
+        "reliability": 96.7,
+        "high_failure_count": 0
+      },
+      {
+        "phase": "DETAILED_DESIGN",
+        "phase_name": "详细设计",
+        "task_count": 4,
+        "avg_failure_score": 18.2,
+        "success_rate": 75.0,
+        "reliability": 79.0,
+        "high_failure_count": 1
+      },
+      {
+        "phase": "IMPLEMENTATION",
+        "phase_name": "实现与测试",
+        "task_count": 4,
+        "avg_failure_score": 28.8,
+        "success_rate": 50.0,
+        "reliability": 62.8,
+        "high_failure_count": 2
+      },
+      {
+        "phase": "MAINTENANCE",
+        "phase_name": "维护复盘",
+        "task_count": 4,
+        "avg_failure_score": 7.2,
+        "success_rate": 100.0,
+        "reliability": 95.7,
+        "high_failure_count": 0
+      }
+    ],
+    "level_distribution": [
+      {
+        "level": "L1",
+        "count": 14
+      },
+      {
+        "level": "L2",
+        "count": 10
+      },
+      {
+        "level": "L3",
+        "count": 0
+      }
+    ],
+    "status_distribution": [
+      {
+        "status": "SUCCESS",
+        "count": 20
+      },
+      {
+        "status": "PARTIAL",
+        "count": 3
+      },
+      {
+        "status": "FAILED",
+        "count": 1
+      }
+    ],
+    "severity_distribution": [
+      {
+        "severity": "CRITICAL",
+        "count": 3
+      },
+      {
+        "severity": "MAJOR",
+        "count": 25
+      },
+      {
+        "severity": "MINOR",
+        "count": 30
+      },
+      {
+        "severity": "TRIVIAL",
+        "count": 10
+      }
+    ],
+    "failure_cases": [
+      {
+        "id": 20,
+        "phase": "IMPLEMENTATION",
+        "phase_name": "实现与测试",
+        "task_name": "部署脚本与端口配置",
+        "level": "L1",
+        "agent_name": "运维Agent",
+        "status": "FAILED",
+        "correctness": 4,
+        "completeness": 2,
+        "runnability": 4,
+        "maintainability": 2,
+        "compliance": 3,
+        "failure_score": 63.0,
+        "failure_band": {
+          "level": "CRITICAL",
+          "label": "严重失效",
+          "action": "阻断交付，L3 接管并根因分析"
+        },
+        "reliability": 37.0,
+        "human_minutes": 180,
+        "retries": 3,
+        "occurred_at": "2026-10-25T09:00:00",
+        "notes": "硬编码端口且未检测占用，导致启动失败；人工改为可配置端口并记录真实 PID。",
+        "created_at": "2026-11-06T17:02:55.858804"
+      },
+      {
+        "id": 16,
+        "phase": "DETAILED_DESIGN",
+        "phase_name": "详细设计",
+        "task_name": "失效评分权重与阈值设计",
+        "level": "L2",
+        "agent_name": "评审Agent",
+        "status": "PARTIAL",
+        "correctness": 3,
+        "completeness": 3,
+        "runnability": 2,
+        "maintainability": 3,
+        "compliance": 2,
+        "failure_score": 52.0,
+        "failure_band": {
+          "level": "HIGH",
+          "label": "高失效",
+          "action": "人工重做，协作等级上调一级"
+        },
+        "reliability": 48.0,
+        "human_minutes": 110,
+        "retries": 2,
+        "occurred_at": "2026-09-05T09:00:00",
+        "notes": "初版权重和文档口径不一致，人工统一为 25/20/25/15/15。",
+        "created_at": "2026-11-06T17:02:55.858804"
+      },
+      {
+        "id": 19,
+        "phase": "IMPLEMENTATION",
+        "phase_name": "实现与测试",
+        "task_name": "前后端联调（检测记录字段）",
+        "level": "L2",
+        "agent_name": "编码Agent",
+        "status": "PARTIAL",
+        "correctness": 2,
+        "completeness": 3,
+        "runnability": 2,
+        "maintainability": 2,
+        "compliance": 2,
+        "failure_score": 44.0,
+        "failure_band": {
+          "level": "HIGH",
+          "label": "高失效",
+          "action": "人工重做，协作等级上调一级"
+        },
+        "reliability": 56.0,
+        "human_minutes": 120,
+        "retries": 2,
+        "occurred_at": "2026-10-09T09:00:00",
+        "notes": "前端字段名与后端 Schema 不一致，人工统一为 snake_case 并由 E2E 回归。",
+        "created_at": "2026-11-06T17:02:55.858804"
+      },
+      {
+        "id": 8,
+        "phase": "REQUIREMENTS",
+        "phase_name": "需求分析",
+        "task_name": "权限边界与验收标准评审",
+        "level": "L2",
+        "agent_name": "需求分析Agent",
+        "status": "PARTIAL",
+        "correctness": 3,
+        "completeness": 2,
+        "runnability": 2,
+        "maintainability": 1,
+        "compliance": 2,
+        "failure_score": 42.0,
+        "failure_band": {
+          "level": "HIGH",
+          "label": "高失效",
+          "action": "人工重做，协作等级上调一级"
+        },
+        "reliability": 58.0,
+        "human_minutes": 95,
+        "retries": 2,
+        "occurred_at": "2026-08-14T09:00:00",
+        "notes": "初稿遗漏查阅人员只读与越权写拦截，人工补入并以 403 用例回归验证。",
+        "created_at": "2026-11-06T17:02:55.858804"
+      }
+    ],
+    "pareto": [
+      {
+        "category": "需求理解偏差",
+        "occurrences": 19,
+        "share": 27.9,
+        "cumulative": 27.9
+      },
+      {
+        "category": "接口契约不一致",
+        "occurrences": 14,
+        "share": 20.6,
+        "cumulative": 48.5
+      },
+      {
+        "category": "前端联调问题",
+        "occurrences": 11,
+        "share": 16.2,
+        "cumulative": 64.7
+      },
+      {
+        "category": "数据模型遗漏",
+        "occurrences": 8,
+        "share": 11.8,
+        "cumulative": 76.5
+      },
+      {
+        "category": "边界条件缺失",
+        "occurrences": 7,
+        "share": 10.3,
+        "cumulative": 86.8
+      },
+      {
+        "category": "文案与样式",
+        "occurrences": 5,
+        "share": 7.4,
+        "cumulative": 94.1
+      },
+      {
+        "category": "部署配置错误",
+        "occurrences": 4,
+        "share": 5.9,
+        "cumulative": 100.0
+      }
+    ],
+    "rubric": [
+      {
+        "key": "correctness",
+        "name": "正确性 C",
+        "weight": 25,
+        "hint": "事实、公式、字段、业务规则是否正确；0 为无失效，5 为严重错误。"
+      },
+      {
+        "key": "completeness",
+        "name": "完整性 I",
+        "weight": 20,
+        "hint": "需求点、异常分支、文档要素是否齐全；0 为覆盖完整，5 为严重缺项。"
+      },
+      {
+        "key": "runnability",
+        "name": "可运行性 R",
+        "weight": 25,
+        "hint": "产物能否直接运行、测试是否通过；0 为一次通过，5 为完全不可运行。"
+      },
+      {
+        "key": "maintainability",
+        "name": "可维护性 M",
+        "weight": 15,
+        "hint": "结构、命名、注释、可修改性；0 为清晰规范，5 为难以维护。"
+      },
+      {
+        "key": "compliance",
+        "name": "合规与安全 S",
+        "weight": 15,
+        "hint": "权限、密钥、数据合规、许可证；0 为完全合规，5 为存在高危问题。"
+      }
+    ],
+    "thresholds": [
+      {
+        "min": 0,
+        "max": 19,
+        "level": "LOW",
+        "label": "低失效",
+        "action": "抽检后可采信，保持原等级"
+      },
+      {
+        "min": 20,
+        "max": 39,
+        "level": "MEDIUM",
+        "label": "中失效",
+        "action": "人工复核修正，按 L2 管理"
+      },
+      {
+        "min": 40,
+        "max": 59,
+        "level": "HIGH",
+        "label": "高失效",
+        "action": "人工重做，协作等级上调一级"
+      },
+      {
+        "min": 60,
+        "max": 100,
+        "level": "CRITICAL",
+        "label": "严重失效",
+        "action": "阻断交付，L3 接管并根因分析"
+      }
+    ],
+    "formula": "FS = 20 × (25C + 20I + 25R + 15M + 15S) / 100；R = 0.6×(100−平均FS) + 0.4×一次通过率×100"
+  },
+  "grading": {
+    "levels": [
+      {
+        "code": "L1",
+        "name": "Agent 自动完成",
+        "definition": "边界清晰、输入输出可结构化校验、错误可自动回滚的工程化任务。",
+        "acceptance": "自动门禁（编译/测试/Schema 校验/静态检查）全部通过，并按 10% 抽检。",
+        "human_role": "制定规则与门禁，不逐项审阅产物。"
+      },
+      {
+        "code": "L2",
+        "name": "人机协作",
+        "definition": "存在业务歧义、体验取舍或跨模块协调，Agent 可产出高质量草稿但需人确认。",
+        "acceptance": "Agent 产出草稿 + 人工逐项复核并签字，关键结论需给出依据。",
+        "human_role": "澄清需求、校准口径、修改产物并承担最终责任。"
+      },
+      {
+        "code": "L3",
+        "name": "纯人工完成",
+        "definition": "高风险、强合规、强责任或涉及真实业务判定的任务，Agent 仅可辅助检索。",
+        "acceptance": "由人独立完成并经第二人复核，Agent 不直接产出交付物。",
+        "human_role": "决策、编写、复核与签署全流程负责。"
+      }
+    ],
+    "rules": [
+      "单个任务失效分 FS ≥ 40：协作等级上调一级（L1→L2，L2→L3），由人工重做或深度修正。",
+      "FS ≥ 60 或涉及权限、评分口径、验收结论：直接转 L3，执行根因分析并阻断发布。",
+      "同一类任务连续 2 次失败、或重试次数 ≥ 2 仍不达标：人工接管，Agent 退出该任务。",
+      "降级需连续 3 个同类任务 FS < 20、自动门禁稳定通过，并经项目负责人确认。",
+      "人机协作任务必须留存「Agent 草稿 + 人工修改记录 + 复核人」，保证可追溯。"
+    ],
+    "table": [
+      {
+        "phase": "FEASIBILITY",
+        "phase_name": "可行性分析",
+        "l1": [
+          "五维评分数据汇总与雷达图绘制",
+          "技术栈候选检索与对比表初稿",
+          "成本项测算表与敏感性分析底稿"
+        ],
+        "l2": [
+          "经济/时间维度评分校准",
+          "风险清单与应对策略草拟",
+          "可行性结论与范围边界撰写"
+        ],
+        "l3": [
+          "选题范围与验收口径确认",
+          "最终可行性评审与签字"
+        ]
+      },
+      {
+        "phase": "REQUIREMENTS",
+        "phase_name": "需求分析",
+        "l1": [
+          "用户故事格式整理与编号",
+          "用例图初稿与用例清单",
+          "REST API 资源清单草案"
+        ],
+        "l2": [
+          "角色权限边界与业务规则澄清",
+          "非功能指标量化（性能/安全/可用性）",
+          "验收标准与异常场景评审"
+        ],
+        "l3": [
+          "检测判定标准与业务口径确认",
+          "需求基线签署与变更审批"
+        ]
+      },
+      {
+        "phase": "ARCHITECTURE",
+        "phase_name": "总体设计",
+        "l1": [
+          "前后端目录与模块脚手架",
+          "系统架构图初稿与部署脚本",
+          "API 路由骨架与统一响应封装"
+        ],
+        "l2": [
+          "分层边界与模块职责评审",
+          "数据库索引、事务与迁移策略",
+          "JWT/RBAC 方案草拟与联调"
+        ],
+        "l3": [
+          "技术选型最终决策",
+          "安全与合规专项审查"
+        ]
+      },
+      {
+        "phase": "DETAILED_DESIGN",
+        "phase_name": "详细设计",
+        "l1": [
+          "UML 类图/ER 图初稿",
+          "ORM 模型与 Pydantic Schema 生成",
+          "异常码表与接口文档整理"
+        ],
+        "l2": [
+          "自动判定算法与边界条件设计",
+          "Agent 失效评分权重校准",
+          "接口契约与错误语义评审"
+        ],
+        "l3": [
+          "失效评分口径与阈值定稿",
+          "权限模型与审计要求最终确认"
+        ]
+      },
+      {
+        "phase": "IMPLEMENTATION",
+        "phase_name": "实现与测试",
+        "l1": [
+          "CRUD、图表组件与页面样板生成",
+          "单元测试骨架、覆盖率与构建脚本",
+          "种子数据与演示数据生成"
+        ],
+        "l2": [
+          "前后端联调与缺陷修复",
+          "E2E 场景设计与边界用例补充",
+          "测试报告与接口文档初稿"
+        ],
+        "l3": [
+          "验收测试结论确认",
+          "真实业务数据与判定结果核对",
+          "发布评审与回滚决策"
+        ]
+      },
+      {
+        "phase": "MAINTENANCE",
+        "phase_name": "维护复盘",
+        "l1": [
+          "缺陷分类统计与帕累托图绘制",
+          "日志聚类、失败任务清单汇总",
+          "复盘材料与修复记录归档"
+        ],
+        "l2": [
+          "Agent 失效根因分析",
+          "修复方案设计与回归验证",
+          "可靠性趋势与阈值调整建议"
+        ],
+        "l3": [
+          "可靠性评级结论",
+          "上线/回滚与责任认定决策"
+        ]
+      }
+    ],
+    "rubric": [
+      {
+        "key": "correctness",
+        "name": "正确性 C",
+        "weight": 25,
+        "hint": "事实、公式、字段、业务规则是否正确；0 为无失效，5 为严重错误。"
+      },
+      {
+        "key": "completeness",
+        "name": "完整性 I",
+        "weight": 20,
+        "hint": "需求点、异常分支、文档要素是否齐全；0 为覆盖完整，5 为严重缺项。"
+      },
+      {
+        "key": "runnability",
+        "name": "可运行性 R",
+        "weight": 25,
+        "hint": "产物能否直接运行、测试是否通过；0 为一次通过，5 为完全不可运行。"
+      },
+      {
+        "key": "maintainability",
+        "name": "可维护性 M",
+        "weight": 15,
+        "hint": "结构、命名、注释、可修改性；0 为清晰规范，5 为难以维护。"
+      },
+      {
+        "key": "compliance",
+        "name": "合规与安全 S",
+        "weight": 15,
+        "hint": "权限、密钥、数据合规、许可证；0 为完全合规，5 为存在高危问题。"
+      }
+    ],
+    "thresholds": [
+      {
+        "min": 0,
+        "max": 19,
+        "level": "LOW",
+        "label": "低失效",
+        "action": "抽检后可采信，保持原等级"
+      },
+      {
+        "min": 20,
+        "max": 39,
+        "level": "MEDIUM",
+        "label": "中失效",
+        "action": "人工复核修正，按 L2 管理"
+      },
+      {
+        "min": 40,
+        "max": 59,
+        "level": "HIGH",
+        "label": "高失效",
+        "action": "人工重做，协作等级上调一级"
+      },
+      {
+        "min": 60,
+        "max": 100,
+        "level": "CRITICAL",
+        "label": "严重失效",
+        "action": "阻断交付，L3 接管并根因分析"
+      }
+    ]
+  }
+}

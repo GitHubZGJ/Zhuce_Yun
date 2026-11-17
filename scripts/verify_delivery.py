@@ -35,13 +35,18 @@ def main():
         "scripts/generate_diagrams.py",
         "scripts/build_report.py",
         "scripts/render_report.py",
-        "deliverable/软件工程大作业报告.docx",
-        "deliverable/软件工程大作业报告.pdf",
+        "deliverable/学号-班级-姓名.docx",
+        "deliverable/学号-班级-姓名.pdf",
         "evidence/api_snapshot.json",
         "evidence/pytest_full.txt",
         "evidence/ui/e2e_result.json",
         "evidence/ui/e2e_summary.txt",
         "evidence/report_render.json",
+        "evidence/tests/term_pytest.png",
+        "evidence/tests/term_coverage.png",
+        "evidence/tests/func_01_project_create.png",
+        "evidence/tests/func_02_record_create_pass.png",
+        "evidence/tests/func_03_viewer_readonly.png",
     ]
     for rel in required:
         check(f"文件存在：{rel}", (ROOT / rel).exists(), rel)
@@ -96,11 +101,13 @@ def main():
     check("E2E 无控制台错误", not e2e.get("consoleErrors"))
     check("E2E 无 API 错误", not e2e.get("apiErrors"))
 
-    report = Document(ROOT / "deliverable" / "软件工程大作业报告.docx")
-    check("Word 图片 13 张", len(report.inline_shapes) == 13, str(len(report.inline_shapes)))
+    report = Document(ROOT / "deliverable" / "学号-班级-姓名.docx")
+    check("Word 图片 22 张", len(report.inline_shapes) == 22, str(len(report.inline_shapes)))
     check("Word 表格 ≥ 90", len(report.tables) >= 90, str(len(report.tables)))
     check("Word 双节（封面+正文）", len(report.sections) == 2, str(len(report.sections)))
-    pdf_size = (ROOT / "deliverable" / "软件工程大作业报告.pdf").stat().st_size
+    cover_text = "\n".join(p.text for p in report.paragraphs[:40])
+    check("报告第一页含仓库链接", "github.com/GitHubZGJ/Zhuce_Yun" in cover_text)
+    pdf_size = (ROOT / "deliverable" / "学号-班级-姓名.pdf").stat().st_size
     check("PDF 体积 > 1 MB", pdf_size > 1_000_000, f"{pdf_size} bytes")
     render = json.loads((ROOT / "evidence" / "report_render.json").read_text(encoding="utf-8"))
     check("Word/PDF 页数 ≥ 50", render["pages"] >= 50, str(render["pages"]))

@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "total": 78,
+  "total": 84,
   "failed": [],
   "checks": [
     {
@@ -89,14 +89,14 @@
       "detail": "scripts/render_report.py"
     },
     {
-      "name": "文件存在：deliverable/软件工程大作业报告.docx",
+      "name": "文件存在：deliverable/学号-班级-姓名.docx",
       "passed": true,
-      "detail": "deliverable/软件工程大作业报告.docx"
+      "detail": "deliverable/学号-班级-姓名.docx"
     },
     {
-      "name": "文件存在：deliverable/软件工程大作业报告.pdf",
+      "name": "文件存在：deliverable/学号-班级-姓名.pdf",
       "passed": true,
-      "detail": "deliverable/软件工程大作业报告.pdf"
+      "detail": "deliverable/学号-班级-姓名.pdf"
     },
     {
       "name": "文件存在：evidence/api_snapshot.json",
@@ -122,6 +122,31 @@
       "name": "文件存在：evidence/report_render.json",
       "passed": true,
       "detail": "evidence/report_render.json"
+    },
+    {
+      "name": "文件存在：evidence/tests/term_pytest.png",
+      "passed": true,
+      "detail": "evidence/tests/term_pytest.png"
+    },
+    {
+      "name": "文件存在：evidence/tests/term_coverage.png",
+      "passed": true,
+      "detail": "evidence/tests/term_coverage.png"
+    },
+    {
+      "name": "文件存在：evidence/tests/func_01_project_create.png",
+      "passed": true,
+      "detail": "evidence/tests/func_01_project_create.png"
+    },
+    {
+      "name": "文件存在：evidence/tests/func_02_record_create_pass.png",
+      "passed": true,
+      "detail": "evidence/tests/func_02_record_create_pass.png"
+    },
+    {
+      "name": "文件存在：evidence/tests/func_03_viewer_readonly.png",
+      "passed": true,
+      "detail": "evidence/tests/func_03_viewer_readonly.png"
     },
     {
       "name": "图表 PNG：01_feasibility_radar",
@@ -364,9 +389,9 @@
       "detail": ""
     },
     {
-      "name": "Word 图片 13 张",
+      "name": "Word 图片 22 张",
       "passed": true,
-      "detail": "13"
+      "detail": "22"
     },
     {
       "name": "Word 表格 ≥ 90",
@@ -379,14 +404,19 @@
       "detail": "2"
     },
     {
+      "name": "报告第一页含仓库链接",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "name": "PDF 体积 > 1 MB",
       "passed": true,
-      "detail": "3630351 bytes"
+      "detail": "4757501 bytes"
     },
     {
       "name": "Word/PDF 页数 ≥ 50",
       "passed": true,
-      "detail": "96"
+      "detail": "104"
     },
     {
       "name": "Markdown 相对链接完整",

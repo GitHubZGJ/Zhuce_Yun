@@ -12,8 +12,8 @@ import win32com.client
 
 ROOT = Path(__file__).resolve().parents[1]
 DELIVERABLE = ROOT / "deliverable"
-SOURCE = DELIVERABLE / "软件工程大作业报告.docx"
-PDF = DELIVERABLE / "软件工程大作业报告.pdf"
+SOURCE = DELIVERABLE / "学号-班级-姓名.docx"
+PDF = DELIVERABLE / "学号-班级-姓名.pdf"
 WORK_DOCX = DELIVERABLE / "_report_work.docx"
 WORK_PDF = DELIVERABLE / "_report_work.pdf"
 

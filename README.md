@@ -1,7 +1,8 @@
 # 筑测云 · 工程检测数据管理平台
 
 > 软件工程大作业 · 生成式软件工程实践  
-> 前后端 + 数据库 + 工程文档 + AI 分级与失效评分监管
+> 前后端 + 数据库 + 工程文档 + AI 分级与失效评分监管  
+> 代码仓库（GitHub 公开）：<https://github.com/GitHubZGJ/Zhuce_Yun>
 
 筑测云面向施工项目部与中小检测机构，提供“工程项目—检测样品—检测记录—自动判定—质量看板”的业务闭环，并把 AI 任务分级、五维失效评分、缺陷帕累托与可靠性统计做进系统，用可运行的方式落实作业中的 AI 治理要求。
 
@@ -25,6 +26,11 @@
 | 数据库 | SQLite（`backend/data/app.db`），外键约束开启 |
 | 测试 | pytest、httpx、pytest-cov、playwright-core + Microsoft Edge |
 | 图表 | Matplotlib（PNG + SVG） |
+
+## 代码仓库
+
+- GitHub 公开仓库：<https://github.com/GitHubZGJ/Zhuce_Yun>
+- 克隆后按下方“快速开始”准备环境即可运行；数据库由 `seed.py` 自动生成。
 
 ## 快速开始
 
@@ -115,8 +121,8 @@ HomeWork/
 - [AI 分级机制表](docs/07_AI分级机制表.md)
 - [评级监管设计说明](docs/08_评级监管设计说明.md)
 - [演示与答辩脚本](docs/09_演示与答辩脚本.md)
-- [Word 总报告](deliverable/软件工程大作业报告.docx)
-- [PDF 预览版](deliverable/软件工程大作业报告.pdf)
+- [Word 总报告](deliverable/学号-班级-姓名.docx)
+- [PDF 预览版](deliverable/学号-班级-姓名.pdf)
 
 ## 关键数据
 

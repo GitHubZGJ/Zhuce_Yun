@@ -18,7 +18,8 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
-OUT = ROOT / "deliverable" / "软件工程大作业报告.docx"
+OUT = ROOT / "deliverable" / "学号-班级-姓名.docx"
+REPO_URL = "https://github.com/GitHubZGJ/Zhuce_Yun"
 
 NAVY = RGBColor(0x12, 0x3A, 0x57)
 NAVY_LIGHT = RGBColor(0x1D, 0x4A, 0x6B)
@@ -275,7 +276,15 @@ def add_cover(doc):
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = p.add_run("项目 · 样品 · 检测 · 看板 · AI 分级 · 失效评分 · 维护复盘")
     set_run_font(run, size=10.5, color=MUTED, cn=FONT_CN, en=FONT_EN)
-    p.paragraph_format.space_after = Pt(20)
+    p.paragraph_format.space_after = Pt(14)
+
+    p = doc.add_paragraph()
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.space_after = Pt(6)
+    run = p.add_run("代码仓库（GitHub 公开）：")
+    set_run_font(run, size=11, bold=True, color=NAVY, cn=FONT_HEAD_CN, en=FONT_HEAD_EN)
+    run = p.add_run(REPO_URL)
+    set_run_font(run, size=11, color=ACCENT, cn=FONT_CN, en=FONT_EN)
 
     table = doc.add_table(rows=5, cols=2)
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
